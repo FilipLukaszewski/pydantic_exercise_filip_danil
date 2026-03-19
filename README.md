@@ -47,7 +47,7 @@ venv\Scripts\activate
 ### 2. Install dependencies
 
 ```bash
-pip install "pydantic[email]" pydantic-settings
+pip install -r requirements.txt
 ```
 
 > The `[email]` extra installs `email-validator`, which is required for Pydantic's `EmailStr` type used in the `User` model.
